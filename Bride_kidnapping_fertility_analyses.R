@@ -189,7 +189,7 @@ tibble( Value = c( Post_M_LS$bM[,2] - Post_M_LS$bM[,1] ,
         legend.title=element_text( size = 12 ) ,
         legend.text=element_text( size = 12 ) )
 
-ggsave( filename = "D:\\Kidnapping\\BP+MA+RS_bM_diff.jpeg" , 
+ggsave( filename = "BP+MA+RS_bM_diff.jpeg" , 
         width = 180 , height = 120 , units = "mm" , dpi = 300 )
 
 ##3.5 Outputs ----
@@ -281,3 +281,4 @@ tibble( Gender = c( "Woman" ) ,
                table.border.bottom.color = "black" ,
                table.border.bottom.width = px( 3 ) ) %>% 
   cols_width( everything() ~ px( 150 ) )
+
